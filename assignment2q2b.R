@@ -7,8 +7,8 @@ data
 rando<-sample(1:100,12)#generate 12 random indices
 rando
 col=c("red","yellow","skyblue4","purple","pink","black","brown","green","grey","lightskyblue","darkgoldenrod","chocolate")
-cx<-c(data[rando[1],1], data[rando[2],1], data[rando[3],1], data[rando[4],1])
-cy<-c(data[rando[1],2], data[rando[2],2], data[rando[3],2], data[rando[4],2])
+cx<-c(data[rando[1],1])
+cy<-c(data[rando[1],2])
 i=2
 while(i<=12)
 {
